@@ -346,24 +346,6 @@ func TestGetFullCmdStr_CommandNotFoundInChroot(t *testing.T) {
 		t.Errorf("Expected error for command not found in chroot, got nil")
 	}
 }
-/*
-func TestGetFullCmdStr_Sudo(t *testing.T) {
-	cmd := "ls"
-	fullCmd, err := shell.GetFullCmdStr(cmd, true, shell.HostPath, nil)
-	if err != nil {
-		t.Fatalf("GetFullCmdStr failed with sudo: %v", err)
-	}
-	if os.Geteuid() == 0 {
-		if strings.Contains(fullCmd, "sudo") {
-			t.Errorf("Expected sudo to be omitted when already root, got: %s", fullCmd)
-		}
-		return
-	}
-	if !strings.Contains(fullCmd, "sudo") {
-		t.Errorf("Expected sudo in command when not root, got: %s", fullCmd)
-	}
-}
-*/
 
 func TestGetFullCmdStr_Env(t *testing.T) {
 	cmd := "ls"
