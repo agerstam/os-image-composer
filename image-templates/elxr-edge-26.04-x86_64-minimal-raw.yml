@@ -14,7 +14,7 @@ metadata:
     - embedded
 
 image:
-  name: elxr-edge-26.04-x86_64-minimal
+  name: elxr-edge-26-04-x86_64-minimal
   version: "1.0.0"
 
 target:
