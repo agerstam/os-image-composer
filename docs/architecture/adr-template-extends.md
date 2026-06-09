@@ -1,9 +1,9 @@
-# ADR: Template Extends
+# ADR: Extending Templates
 
-**Status**: Proposed  
-**Date**: 2026-05-26  
-**Updated**: 2026-05-30  
-**Authors**: ICT Team  
+**Status**: Proposed
+**Date**: 2026-05-26
+**Updated**: 2026-05-30
+**Authors**: ICT Team
 **Technical Area**: Template Configuration / Merge System
 
 ---
